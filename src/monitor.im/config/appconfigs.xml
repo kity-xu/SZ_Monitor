@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Applications Version='1.1'>
+	<Application name='mysql'>
+			<Record Name='Process' Caption='mysql'>
+				<Command Cmd='ps -aux | grep mysql' Caption="shell" />
+			</Record>
+
+			<Record Name='configFile' Caption='mysql'>
+				<Command Cmd='cat' Caption="shell" />
+			</Record>
+			<!-- Record -->
+	</Application>
+
+	<Application Category='redis-server' Caption='redis'>
+			<Record Name='Process' Caption='redis'>
+				<Command Cmd='ps -aux | grep redis-server' Caption="shell" />
+			</Record>
+
+			<Record Name='configFile' Caption='redis-server'>
+				<Command Cmd='cat' Caption="shell" />
+			</Record>
+			<!-- Record -->
+	</Application>
+</Applications>
